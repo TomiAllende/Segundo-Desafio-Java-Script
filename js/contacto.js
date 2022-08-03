@@ -10,3 +10,21 @@ function Persona(nombre,mail,mensaje) {
 const persona1 = new Persona ("Belen", "belenallende@hotmail.com", "gracias x su servicio")
 const persona2 =new Persona ("Inaki", "inakiallende@gmail.com", "feo servicio el suyo")
 
+
+//Armo para valdar el submit en mi forms
+
+let formulario = document.querySelector(".formulario")
+let falladeformulario = document.querySelector(".fallaformu")
+
+formulario.addEventListener ("submit", aceptar)
+
+function aceptar (e) {
+    e.preventDefault ();
+    let formArray = e.target;
+    console.log(e);
+}
+
+
+let nombre = formArray[0]
+let mail = formArray[1]
+

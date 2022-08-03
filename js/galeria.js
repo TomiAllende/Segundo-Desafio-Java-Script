@@ -7,5 +7,4 @@ console.log(ubicacion)
 if (ubicacion !=" "){
 alert("El local mas cercano es" + ubicacion)}
 else{
-    console.log("La ubicacion que indica no es correcta")
-}
+    console.log("La ubicacion que indica no es correcta")}
