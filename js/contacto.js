@@ -19,12 +19,11 @@ let falladeformulario = document.querySelector(".fallaformu")
 formulario.addEventListener ("submit", aceptar)
 
 function aceptar (e) {
-    e.preventDefault ();
-    let formArray = e.target;
-    console.log(e);
-}
-
-
+    e.preventDefault ()
+    console.log(e)
+    let formArray = e.target 
+    console.log(e)
 let nombre = formArray[0]
 let mail = formArray[1]
+}
 

@@ -21,3 +21,6 @@ console.log(pedidxs.length)
 
 pedidx.shift
 console.log(pedidx)
+
+//Intento sumar pedidos a mi carrito
+
